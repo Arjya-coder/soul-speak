@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulSpeak - Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup">
+        <h2>How are you feeling today?</h2>
+        <button onclick="sendEmotion('Not Ok')">Not Ok</button>
+        <button onclick="sendEmotion('Good')">Good</button>
+        <button onclick="sendEmotion('Great')">Great</button>
+    </div>
+    <div class="helpline">
+        <p>Mental Health Helpline: +91-XXXXXXXXXX</p>
+    </div>
+    <div class="chatbox">
+        <h3>Chat with SoulSpeak</h3>
+        <div id="chatContent"></div>
+        <input type="text" id="userInput" placeholder="Type your message">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>

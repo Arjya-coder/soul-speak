@@ -1,0 +1,8 @@
+flask
+flask-cors
+openvino
+scikit-learn
+numpy
+websockets
+bcrypt
+mysql-connector-python
